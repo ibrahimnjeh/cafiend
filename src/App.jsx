@@ -17,11 +17,10 @@ function App() {
    
    
    return(
-    <Layout>
-      <Hero/>
+     <Layout>
+    <Hero/>
       <CoffeeForm/>
       {isAuthentificated && (AuthentificatedContend)}
-      
     </Layout>
    )
 }
